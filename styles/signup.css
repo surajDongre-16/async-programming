@@ -1,0 +1,56 @@
+#navbar{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: flex;
+    justify-content: right;
+}
+#navbar > .nav{
+    width:20%;
+    display: flex;
+    justify-content: space-around;
+}
+h3 > a{
+    text-decoration: none;
+    color: teal;
+    font-size: 25px;
+}
+#form{
+    
+    margin-top: 5%;
+}
+#form > input{
+    display: block;
+    position: relative;
+    left: 25%;
+    margin-bottom: 30px;
+    font-size: 25px;
+
+}
+
+#error{
+    text-align: center;
+    color:red;
+}
+
+#submit{
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px 50px;
+    /* position: relative;
+    left: 53%; */
+    margin-left: 70px;
+}
+#signup-form-div{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width:35%;
+    height: 400px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}

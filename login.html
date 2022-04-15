@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="stylesheet" href="./styles/index.css">
+        <title>Login</title>
+        <link rel="stylesheet" href="./styles/login.css">
     </head>
 
     <body>
@@ -18,20 +18,18 @@
             </div>
             
         </div>
-        <div id="slideshow">
-            <!--Show Slideshow here-->
+    
+        <div id="login-form-div">
+            <h1>Login</h1>
+            <form id="form" onsubmit="login(event)">
+                <!--Write form input elements here-->
+                <input type="email" id="email" placeholder="Enter email">
+                <input type="password" id="password" placeholder="Enter password">
+                <input type="submit" id="btn">
+            </form>
 
-        </div>
-
-        <div id="sort-buttons">
-            <button id="sort-hl" onclick="high()">Sort by high rating to low</button>
-            <button id="sort-lh" onclick="low()">Sort by low rating to high</button>
-            <!--Add sorting here-->
-        </div>
-        <div id="movies">
-            <!--Show list of movies here-->
         </div>
     </body>
 
 </html>
-<script src="./scripts/index.js"></script>
+<script src="./scripts/login.js"></script>

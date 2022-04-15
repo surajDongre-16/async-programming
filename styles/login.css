@@ -1,0 +1,47 @@
+#navbar{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: flex;
+    justify-content: right;
+}
+#navbar > .nav{
+    width:20%;
+    display: flex;
+    justify-content: space-around;
+}
+h3 > a{
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+}
+input{
+    display: block;
+    position: relative;
+    left: 25%;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#login-form-div{
+   width: 25%;
+   height:400px;
+   margin: auto;
+   margin-top: 10%;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+#btn{
+   margin-top: 10%;
+   font-size: 25px;
+   padding: 10px 50px;
+   position: relative;
+   left: 33%;
+   background-color: teal;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#form{
+   margin-top:10%;
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+}
+#navbar{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(255, 193, 193);
+}
+#navbar > .nav{
+    width:20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 193, 193);
+
+}
+/* .nav > h3{
+    background-color: rgb(255, 193, 193);
+
+} */
+h3 > a{
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    background-color: rgb(255, 193, 193);
+
+}
+
+#slideshow{
+    width:90%;
+    margin: auto;
+    height:700px;
+    margin-top: 5%;
+    
+}
+#slideshow > img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+#movies{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+}
+.poster{
+    width:100%;
+    height:100%;
+    border-radius: 20px 0px ;
+}
+.box{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 20px 0px;
+    background-color: rgb(255, 193, 193);
+}
+.img_div{
+    height: 300px;
+}
+.details{
+    font-size: 20px;
+    text-align: center;
+}
+#sort-buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 3%;
+}
+#sort-buttons > button{
+    font-size: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
